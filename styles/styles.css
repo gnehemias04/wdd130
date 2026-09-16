@@ -1,3 +1,7 @@
+main {
+    max-width: 840px;
+}
+
 nav {
     background-color: #333;
     padding: 10px;
@@ -30,7 +34,7 @@ h2 {
     text-align: center;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -44,6 +48,10 @@ img {
 aside img {
     width: 200px;
     height: auto;
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 30px gray;
+    border: 1px solid black;
 }
 
 p {
