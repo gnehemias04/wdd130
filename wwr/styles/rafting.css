@@ -32,6 +32,9 @@ footer {
 footer {
     background-color: var(--secondary-color);
     color: var(--accent2-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1,
@@ -104,5 +107,41 @@ h1 {
     width: 100%;
     height: auto;
     margin: 0;
-    display: block;
+    padding-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 1rem;
+
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.history {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.history-img {
+    height: 150px;
+    width: auto;
+}
+
+.adventure {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.adventure img {
+    width: 120px;
+
 }
