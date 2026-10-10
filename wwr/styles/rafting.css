@@ -19,6 +19,7 @@ body {
     color: var(--accent1-color);
     width: 100%;
     align-items: center;
+
 }
 
 header,
@@ -143,5 +144,88 @@ h1 {
 
 .adventure img {
     width: 120px;
+
+}
+
+.map_section {
+    display: flex;
+    gap: 10px;
+}
+
+iframe {
+    width: 400px;
+    height: 400px;
+}
+
+.checkbox {
+    display: flex;
+}
+
+form {
+    background-color: #ddd;
+    color: #111;
+    margin: 10px;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+
+input,
+button {
+    margin-left: 40px;
+    padding: .5rem;
+    border-radius: .5rem;
+
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: navy;
+    color: #fff;
+    margin: 10px;
+    display: block;
+    border-radius: .5rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    box-shadow: 0 0 30px #eee;
+}
+
+.box {
+    margin: 0;
+    gap: .75rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+}
+
+.quiz-item {
+    border: none;
+
+}
+
+textarea {
+    height: 60px;
+}
+
+.message {
+    display: grid;
+    width: 300px;
+}
+
+.address {
+    margin: 2px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
 
 }
