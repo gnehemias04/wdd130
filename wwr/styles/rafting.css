@@ -28,6 +28,7 @@ footer {
 
     width: 840px;
     margin: 0 auto;
+
 }
 
 footer {
@@ -36,6 +37,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 50px;
+    padding: 10px;
 }
 
 h1,
@@ -43,7 +46,6 @@ h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
-    opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
     width: 100%;
@@ -54,8 +56,7 @@ nav,
 p,
 section,
 article {
-    margin: 16px;
-    padding: 8px;
+
     text-align: center;
 }
 
@@ -124,10 +125,15 @@ article {
 
 }
 
+.margin-top {
+    margin-top: 20px;
+}
+
 .history {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
 .history-img {
@@ -135,14 +141,25 @@ article {
     width: auto;
 }
 
-.adventure {
+.adventure,
+.profile,
+.adrenaline {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
 }
 
+.adrenaline-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
 .adventure img {
+
     width: 120px;
 
 }
@@ -150,6 +167,7 @@ article {
 .map_section {
     display: flex;
     gap: 10px;
+    justify-content: center;
 }
 
 iframe {
@@ -223,9 +241,144 @@ textarea {
     margin: 2px;
 }
 
-.profile {
+.hero-section {
+    position: relative;
+    width: 840px;
+    height: 400px;
     display: flex;
-    justify-content: space-around;
-    margin: 20px;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.hero-image {
+    position: absolute;
+    left: 0px;
+    top: -1%;
+    border-top: 5px solid rgb(0 0 0 / 30%);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.services {
+    border: 4px solid var(--secondary-color);
+    width: 250px;
+
+}
+
+.rafting {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent1-color);
+    opacity: 0.5;
+
+}
+
+.rafting-h1 {
+    opacity: 0.99;
+    width: 70%;
+    border-radius: 40%;
+
+}
+
+.news {
+    margin: 0;
+    gap: .75rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    height: 330px;
+    background-color: var(--secondary-color);
+    width: 320px;
+}
+
+.cards {
+    width: 320px;
+    height: 330px;
+    background-color: var(--secondary-color);
+    padding: 5px;
+}
+
+.cards-2 {
+    width: 400px;
+    height: 450px;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    margin: 20px;
+}
+
+.start {
+    text-align: start;
+    margin: 4px;
+}
+
+h3 {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.action {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    padding: 40px 30px;
+
+}
+
+.trips {
+    box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent2-color);
+}
+
+.blanck {
+    background-color: var(--accent2-color);
+    border-radius: 0;
+    margin: 5px;
+    padding: 10px;
+    color: #111;
+}
+
+.title-trip {
+    height: 100px;
+    background-color: var(--accent1-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-trip p,
+.info-trip {
+    text-align: start;
+    font-size: large;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid var(--accent1-color);
+    font-family: sans-serif;
+    width: 100%;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    border: 1px solid var(--accent1-color);
+    padding: 8px 10px;
+    text-align: center;
+}
+
+thead th,
+tfoot tr {
+    background-color: var(--accent1-color);
+    color: #fff;
+    font-weight: 700;
 }
